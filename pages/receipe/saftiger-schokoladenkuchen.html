@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <script
+      type="text/javascript"
+      src="/scripts/jquery/jquery-3.6.3.min.js"
+    ></script>
+    <script type="text/javascript" src="/scripts/script.js"></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/img/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link href="/fonts/fontawesome/css/all.css" rel="stylesheet" />
+
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Kochwelt - Saftiger Schokoladenkuchen</title>
+
+    <meta name="description" content="" />
+  </head>
+
+  <body onload="includeHTML()">
+    <header
+      class="header"
+      w3-include-html="../../templates/header.html"
+    ></header>
+
+    <main id="receipt-website">
+      <section class="receipe ctn-spc">
+        <div class="receipe-headline">
+          <h1 class="headline-top-receipe">Saftiger Schokoladenkuchen</h1>
+        </div>
+
+        <div class="receipe-pic">
+          <img
+            src="../../img/schokokuchen.jpg.jpg"
+            alt="SChokoladenkuchen auf Teller mit Gabel zerteilt"
+          />
+        </div>
+
+        <div class="receipe-icons">
+          <div class="receipe-icon">
+            <div class="receipe-icon-info">
+              <img src="../../img/icons/clock-regular.svg" alt="Dauer in Min" />
+              <p>25 Min.</p>
+            </div>
+            <div class="receipe-icon-info">
+              <img
+                src="../../img/icons/brain-solid.svg"
+                alt="Schwierigkeitgrad"
+              />
+              <p>Medium</p>
+            </div>
+            <div class="receipe-icon-info">
+              <img
+                src="../../img/icons/calendar-alt-regular.svg"
+                alt="Datum hochgeladen"
+              />
+              <p>19.01.2023</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </section>
+
+      <section class="receipe-ingredients">
+        <div class="receipe-ingredients-calc ctn-spc">
+          <div class="input-button">
+            <label class="label-style" for="serving">Zutaten für :</label>
+            <input type="number" id="servingInput" min="1" value="4" />
+
+            <button id="js-calcService">Portionen</button>
+          </div>
+        </div>
+        <div class="error">
+          <p id="errorMessage"></p>
+        </div>
+
+        <div class="ingredients ctn-spc">
+          <table>
+            <tbody>
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="150">
+                  <span class="quantity">600</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">g</span>
+                  <span class="ingredient">Zartbitterschokolade</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="250">
+                  <span class="quantity">1000</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">g</span>
+                  <span class="ingredient">Butter</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="120">
+                  <span class="quantity">480</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">g</span>
+                  <span class="ingredient">Zucker</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="5">
+                  <span class="quantity">20</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">Stk.</span>
+                  <span class="ingredient">Eier</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="2">
+                  <span class="quantity">8</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">EL</span>
+                  <span class="ingredient">Mehl</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="2">
+                  <span class="quantity">8</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">EL</span>
+                  <span class="ingredient">Kakao</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="4">
+                  <span class="quantity">16</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">EL</span>
+                  <span class="ingredient">Backpulver</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <hr />
+        </div>
+
+        <script type="text/javascript" src="/scripts/script.js"></script>
+      </section>
+
+      <section class="preparation">
+        <div class="receipe preparation ctn-spc">
+          <h2>Zubereitung</h2>
+          <div class="receipe-icons">
+            <div class="receipe-icon-info">
+              <img
+                src="../../img/icons/clock-regular.svg"
+                alt="Dauer der Zubereitung"
+              />
+              <p>ca. 25 Min.</p>
+            </div>
+
+            <div class="receipe-icon-info">
+              <img src="../../img/icons/clock-regular.svg" alt="Gesamtdauer" />
+              <p>Gesamtzeit ca. 55 Min.</p>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              Schokolade mit Butter im Wasserbad schmelzen. Eier mit Zucker
+              schaumig rühren und Mehl sowie Kakao und Backpulver hinzufügen.
+              Schoko-Butter-Masse zugeben und unterheben.
+            </p>
+
+            <p>
+              Den Backofen auf 160 °C Ober-/Unterhitze vorheizen und den Kuchen
+              in einer gefetteten Springform 30 min backen. Sahne erhitzen. Die
+              Schokolade in Stücke brechen und in eine Schüssel geben, die heiße
+              Sahne darauf geben und rühren, bis die Schokolade geschmolzen ist.
+              Den Guss auf dem Kuchen verteilen und abkühlen lassen.
+            </p>
+          </div>
+          <br />
+          <div>
+            <h3>Rezept erstellt von</h3>
+          </div>
+          <div class="receipe-author">
+            <img
+              src="/img/IMG_5196.jpeg"
+              alt="Mehmet Ali Soeylen
+  Profilbild"
+            />
+
+            <p>Mehmet Ali Soeylen</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer w3-include-html="../../templates/footer.html"></footer>
+  </body>
+</html>

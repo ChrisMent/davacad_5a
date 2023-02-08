@@ -1,0 +1,176 @@
+.headerh1 {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    font-size: 50px;
+}
+
+.picture {
+    height: 250px;
+    width: 1500px;
+    margin-left: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.underhead {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.underheadtime {
+    background-color: rgb(219, 219, 219);
+    border-radius: 8px;
+}
+
+.underheadbrain {
+    background-color: rgb(219, 219, 219);
+    margin-left: 30px;
+    border-radius: 8px;
+}
+
+.underheadcalendar {
+    background-color: rgb(219, 219, 219);
+    margin-left: 30px;
+    border-radius: 8px;
+}
+
+.images {
+    height: 22px;
+}
+
+.undertext {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.portions {
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.ingredients {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.input {
+    height: 30px;
+    max-width: 120px;
+    text-align: center;
+    margin-left: 26px;
+}
+
+.portionbutton{
+    height: 36px;
+    background-color: green;
+    
+    
+}
+
+.portiontext{
+    padding: 28px;
+    color: white;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.table1 {
+    margin-left: 100px;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+    
+    
+}
+
+.bg1 {
+     background-color: rgb(219, 219, 219);
+}
+
+.bg2 {
+    background-color: rgb(247, 247, 247);
+}
+
+.table2{
+    width: 83%;
+}
+
+.tabletext {
+    margin-left: 50px;
+    
+}
+
+.preparation {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.preparationtimes {
+    margin-left: 100px;
+    display: flex;
+}
+
+.cooktime {
+    background-color: rgb(219, 219, 219);
+    border-radius: 8px;
+}
+
+.baketime {
+    margin-left: 20px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 8px;
+}
+
+.alltime {
+    margin-left: 20px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 8px;
+}
+
+.prep {
+    margin-left: 8px;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.h2 {
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.preptext {
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
+.receptme {
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.imgme {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 100px;
+    object-fit: cover;
+}
+
+.endme {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: 'Raleway', sans-serif;
+}

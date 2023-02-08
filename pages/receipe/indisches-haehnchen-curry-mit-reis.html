@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <script
+      type="text/javascript"
+      src="/scripts/jquery/jquery-3.6.3.min.js"
+    ></script>
+    <script type="text/javascript" src="/scripts/script.js"></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/img/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link href="/fonts/fontawesome/css/all.css" rel="stylesheet" />
+
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Kochwelt - Indisches Hähnchen-Curry mit Reis</title>
+
+    <meta name="description" content="" />
+  </head>
+
+  <body onload="includeHTML()">
+    <header
+      class="header"
+      w3-include-html="../../templates/header.html"
+    ></header>
+
+    <main id="receipt-website">
+      <section class="receipe ctn-spc">
+        <div class="receipe-headline">
+          <h1 class="headline-top-receipe">
+            Indisches Hähnchen-Curry mit Reis
+          </h1>
+        </div>
+
+        <div class="receipe-pic">
+          <img
+            src="../../img/indisches_essen.jpg"
+            alt="Indisches Hähnchen-Curry mit Reis und verschiedenen Dips"
+          />
+        </div>
+
+        <div class="receipe-icons">
+          <div class="receipe-icon">
+            <div class="receipe-icon-info">
+              <img src="../../img/icons/clock-regular.svg" alt="Dauer in Min" />
+              <p>60 Min.</p>
+            </div>
+            <div class="receipe-icon-info">
+              <img
+                src="../../img/icons/brain-solid.svg"
+                alt="Schwierigkeitgrad"
+              />
+              <p>Simpel</p>
+            </div>
+            <div class="receipe-icon-info">
+              <img
+                src="../../img/icons/calendar-alt-regular.svg"
+                alt="Datum hochgeladen"
+              />
+              <p>19.01.2023</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </section>
+
+      <section class="receipe-ingredients">
+        <div class="receipe-ingredients-calc ctn-spc">
+          <div class="input-button">
+            <label class="label-style" for="serving">Zutaten für :</label>
+            <input type="number" id="servingInput" min="1" value="4" />
+
+            <button id="js-calcService">Portionen</button>
+          </div>
+        </div>
+        <div class="error">
+          <p id="errorMessage"></p>
+        </div>
+
+        <div class="ingredients ctn-spc">
+          <table>
+            <tbody>
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="250">
+                  <span class="quantity">1000</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">g</span>
+                  <span class="ingredient">Hähnchen-Oberkeulen ohne Haut</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="1">
+                  <span class="quantity">4</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">EL</span>
+                  <span class="ingredient">Tikka Masala Tandoori-Paste</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="1">
+                  <span class="quantity">4</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">Stk.</span>
+                  <span class="ingredient">Zwiebeln</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="1">
+                  <span class="quantity">4</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">Stk.</span>
+                  <span class="ingredient">Tomate(n)</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="1">
+                  <span class="quantity">4</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">EL</span>
+                  <span class="ingredient">Öl</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="100">
+                  <span class="quantity">400</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">g</span>
+                  <span class="ingredient">Basmati-Reis</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="200">
+                  <span class="quantity">800</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">ml</span>
+                  <span class="ingredient">Hühnerbrühe</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="0.25">
+                  <span class="quantity">1</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">Stk.</span>
+                  <span class="ingredient">Koriander</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <hr />
+        </div>
+
+        <script type="text/javascript" src="/scripts/script.js"></script>
+      </section>
+
+      <section class="preparation">
+        <div class="receipe preparation ctn-spc">
+          <h2>Zubereitung</h2>
+          <div class="receipe-icons">
+            <div class="receipe-icon-info">
+              <img
+                src="../../img/icons/clock-regular.svg"
+                alt="Dauer der Zubereitung"
+              />
+              <p>ca. 60 Min.</p>
+            </div>
+
+            <div class="receipe-icon-info">
+              <img src="../../img/icons/clock-regular.svg" alt="Gesamtdauer" />
+              <p>Gesamtzeit ca. 60 Min.</p>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              Hähnchen trocken tupfen und in einer Schüssel mit Tandoori-Paste
+              vermengen. Abgedeckt über Nacht kalt stellen. Am nächsten Tag
+              Zwiebeln schälen, fein würfeln. Tomaten waschen, trocken reiben,
+              vierteln und entkernen. Fruchtfleisch in ca. 1 cm große Würfel
+              schneiden. Öl in einer Pfanne erhitzen, Hähnchen darin unter
+              Wenden portionsweise jeweils ca. 8 Minuten anbraten, herausnehmen.
+            </p>
+
+            <p>
+              Zwiebel in Bratfett ca. 3 Minuten andünsten. Reis zugeben und gut
+              verrühren. Tomaten und Sultaninen unterrühren. Reis in eine große
+              ofenfeste Auflaufform (ca. 2,5 Liter Inhalt) füllen.
+            </p>
+
+            <p>
+              Hähnchen auf den Reis legen und mit Brühe übergießen. Auflaufform
+              mit Folie abdecken und im vorgeheizten Backofen (E-Herd: 225 °C/
+              Umluft: 200 °C/ Gas: s. Hersteller) ca. 45 Minuten garen. Aus dem
+              Ofen nehmen und abgedeckt ca. 10 Minuten ruhen lassen.
+            </p>
+
+            <p>
+              Koriander waschen, trocken schütteln und Blätter von den Stielen
+              zupfen. Curry mit Koriander garnieren. Dazu schmeckt Naturjoghurt.
+            </p>
+          </div>
+          <br />
+          <div>
+            <h3>Rezept erstellt von</h3>
+          </div>
+          <div class="receipe-author">
+            <img src="/img/Raki.jpg" alt="Sacha Grill Profilbild" />
+
+            <p>Sascha Grill</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer w3-include-html="../../templates/footer.html"></footer>
+  </body>
+</html>

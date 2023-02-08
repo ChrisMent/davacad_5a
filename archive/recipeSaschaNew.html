@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/sascha.css">
+    <script src="scripts/sascha.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <script src="https://kit.fontawesome.com/54e7771f1f.js" crossorigin="anonymous"></script>
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Kochwelt - Indisches Hähnchen-Curry mit Reis</title>
+</head>
+
+<body onload="includeHTML()">
+    <header class="header" w3-include-html="templates/header.html"></header>
+
+    <section class="section1">
+        <h1>Indisches Hähnchen-Curry mit Reis</h1>
+        <img class="meal-img" src="img/indisches_essen.jpg" alt="Bild des Gerichts">
+        <div class="info-container">
+            <div class="info bg">
+                <img class="info-icon" src="img/icons/clock-regular.svg" alt="Bild einer Uhr">
+                <span>60 Min.</span>
+            </div>
+            <div class="info bg">
+                <img class="info-icon" src="img/icons/brain-solid.svg" alt="Bild eines Gehirns">
+                <span>simpel</span>
+            </div>
+            <div class="info bg">
+                <img class="info-icon" src="img/icons/calendar-alt-regular.svg" alt="Bild eines Kalenders">
+                <span">17.01.2023</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <hr class="bg">
+        <div class="portion-container">
+            <span>Zutaten für</span>
+            <input id="porty" type="number" placeholder="4" min="1">
+            <button onclick="changeRecipe()">Portionen</button>
+        </div>
+
+        <table>
+            <tr>
+                <td class="ingredients bg"><span id="ing1">1000</span> g Hähnchen-Oberkeulen ohne Haut</td>
+            </tr>
+            <tr>
+                <td class="ingredients"><span id="ing2">4</span> EL Tikka Masala Tandori-Paste</td>
+            </tr>
+            <tr>
+                <td class="ingredients bg"><span id="ing3">4</span> Zwiebeln</td>
+            </tr>
+            <tr>
+                <td class="ingredients"><span id="ing4">4</span> Tomaten</td>
+            </tr>
+            <tr>
+                <td class="ingredients bg"><span id="ing5">4</span> EL Öl</td>
+            </tr>
+            <tr>
+                <td class="ingredients"><span id="ing6">400</span> g Basmati-Reis</td>
+            </tr>
+            <tr>
+                <td class="ingredients bg"><span id="ing7">800</span> ml Hühnerbrühe</td>
+            </tr>
+            <tr>
+                <td class="ingredients"><span id="ing8">4</span> Stiel(e) Koriander</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section3">
+        <h2>Zubereitung</h2>
+        <div class="info-container">
+            <div class="info bg">
+                <img class="info-icon" src="img/icons/clock-regular.svg" alt="Bild einer Uhr">
+                <span>ca. 60 Minuten</span>
+            </div>
+            <div class="info bg">
+                <img class="info-icon" src="img/icons/clock-regular.svg" alt="Bild eines Gehirns">
+                <span>Gesamtzeit ca. 60 Minuten</span>
+            </div>
+        </div>
+        <p>
+            Hähnchen trocken tupfen und in einer Schüssel mit Tandoori-Paste vermengen. Abgedeckt über Nacht kalt
+            stellen. Am nächsten Tag Zwiebeln schälen, fein würfeln. Tomaten waschen, trocken reiben, vierteln und
+            entkernen. Fruchtfleisch in ca. 1 cm große Würfel schneiden. Öl in einer Pfanne erhitzen, Hähnchen darin
+            unter Wenden portionsweise jeweils ca. 8 Minuten anbraten, herausnehmen.
+            <br>
+            <br>
+            Zwiebel in Bratfett ca. 3 Minuten andünsten. Reis zugeben und gut verrühren. Tomaten und Sultaninen
+            unterrühren. Reis in eine große ofenfeste Auflaufform (ca. 2,5 Liter Inhalt) füllen.
+            <br>
+            <br>
+            Hähnchen auf den Reis legen und mit Brühe übergießen. Auflaufform mit Folie abdecken und im vorgeheizten
+            Backofen (E-Herd: 225 °C/ Umluft: 200 °C/ Gas: s. Hersteller) ca. 45 Minuten garen. Aus dem Ofen nehmen und
+            abgedeckt ca. 10 Minuten ruhen lassen.
+            <br>
+            <br>
+            Koriander waschen, trocken schütteln und Blätter von den Stielen zupfen. Curry mit Koriander garnieren. Dazu
+            schmeckt Naturjoghurt.
+        </p>
+        <h3>Rezept erstellt von</h3>
+        <div class="creator-container">
+            <img class="creator-img" src="img/Creator/Sascha.jpg" alt="Bild von Ersteller">
+            <span class="creator-name">Sascha Grill</span>
+        </div>
+    </section>
+
+    <footer w3-include-html="templates/footer.html"></footer>
+</body>
+
+</html>

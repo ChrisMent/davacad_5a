@@ -1,0 +1,206 @@
+.recipeSaschaImage {
+    object-fit: cover;
+    width: 98%;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.timeHead {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+table {
+    width: 98%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.portButton {
+    background-color: #008000;
+    padding-top: 10px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 10px;
+    color: #fff;
+    border-radius: 0 0 0 0 !important;
+    width: 120 !important;
+}
+
+.portInput {
+    min-height: 40px;
+    max-width: 120px;
+    text-align: center;
+}
+
+.flexyExp {
+    margin-top: 30px;
+    width: 80%;
+}
+
+.flexBoxImg {
+    gap: 8px;
+    padding: 10px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.iconImg {
+    height: 20px !important;
+}
+
+.flexEnd {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.fonty-size {
+    font-size: 20px !important;
+}
+
+.creatorImg {
+    height: 180px !important;
+    border-radius: 50% !important;
+}
+
+@media (max-width: 635px) {
+    .flexBoxImg {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .timeHead {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .headlineCenter {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .recipeFor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recipeCalc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .centerTable {
+        text-align: center;
+    }
+
+    .centerRecipe {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .flexyExp {
+        width: auto;
+    }
+
+    .creatorImg {
+        height: 260px !important;
+    }
+
+    .flexEnd {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fonty-size {
+        font-weight: bold;
+    }
+
+    .h3size {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 535px) {
+    .flexBoxImg {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .timeHead {
+        gap: 20px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .headlineCenter {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .recipeFor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recipeCalc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .centerTable {
+        text-align: center;
+    }
+
+    .centerRecipe {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .flexyExp {
+        width: auto;
+    }
+
+    .creatorImg {
+        height: 260px !important;
+    }
+
+    .flexEnd {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fonty-size {
+        font-weight: bold;
+    }
+
+    .h3size {
+        font-size: 20px;
+    }
+}

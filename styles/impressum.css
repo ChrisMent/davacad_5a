@@ -1,0 +1,22 @@
+h1 {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+}
+
+.p_child {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+}
+
+.headline-top-child {
+    margin-top: 0;
+}
+
+@media(max-width: 490px) {
+    .centerh1 {
+        text-align: center;
+    }
+}
+    

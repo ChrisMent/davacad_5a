@@ -1,0 +1,1050 @@
+/* raleway-regular - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/raleway-v28-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('/fonts/raleway-v28-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('/fonts/raleway-v28-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('/fonts/raleway-v28-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('/fonts/raleway-v28-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('/fonts/raleway-v28-latin-regular.svg#Raleway') format('svg');
+    /* Legacy iOS */
+}
+
+/* raleway-500 - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/raleway-v28-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('/fonts/raleway-v28-latin-500.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('/fonts/raleway-v28-latin-500.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('/fonts/raleway-v28-latin-500.woff') format('woff'),
+        /* Modern Browsers */
+        url('/fonts/raleway-v28-latin-500.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('/fonts/raleway-v28-latin-500.svg#Raleway') format('svg');
+    /* Legacy iOS */
+}
+
+/* raleway-600 - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/raleway-v28-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('/fonts/raleway-v28-latin-600.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('/fonts/raleway-v28-latin-600.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('/fonts/raleway-v28-latin-600.woff') format('woff'),
+        /* Modern Browsers */
+        url('/fonts/raleway-v28-latin-600.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('/fonts/raleway-v28-latin-600.svg#Raleway') format('svg');
+    /* Legacy iOS */
+}
+
+/* raleway-700 - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/raleway-v28-latin-700.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('/fonts/raleway-v28-latin-700.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('/fonts/raleway-v28-latin-700.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('/fonts/raleway-v28-latin-700.woff') format('woff'),
+        /* Modern Browsers */
+        url('/fonts/raleway-v28-latin-700.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('/fonts/raleway-v28-latin-700.svg#Raleway') format('svg');
+    /* Legacy iOS */
+}
+
+/* raleway-800 - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    src: url('/fonts/raleway-v28-latin-800.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('/fonts/raleway-v28-latin-800.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('/fonts/raleway-v28-latin-800.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('/fonts/raleway-v28-latin-800.woff') format('woff'),
+        /* Modern Browsers */
+        url('/fonts/raleway-v28-latin-800.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('/fonts/raleway-v28-latin-800.svg#Raleway') format('svg');
+    /* Legacy iOS */
+}
+
+/* raleway-900 - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    src: url('/fonts/raleway-v28-latin-900.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('/fonts/raleway-v28-latin-900.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('/fonts/raleway-v28-latin-900.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('/fonts/raleway-v28-latin-900.woff') format('woff'),
+        /* Modern Browsers */
+        url('/fonts/raleway-v28-latin-900.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('/fonts/raleway-v28-latin-900.svg#Raleway') format('svg');
+    /* Legacy iOS */
+}
+
+/* raleway-italic - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 400;
+    src: url('/fonts/raleway-v28-latin-italic.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('/fonts/raleway-v28-latin-italic.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('/fonts/raleway-v28-latin-italic.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('/fonts/raleway-v28-latin-italic.woff') format('woff'),
+        /* Modern Browsers */
+        url('/fonts/raleway-v28-latin-italic.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('/fonts/raleway-v28-latin-italic.svg#Raleway') format('svg');
+    /* Legacy iOS */
+}
+
+
+/*General Styles*/
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+    color: #151515;
+}
+
+body {
+    margin: 0px;
+
+}
+
+#receipt-website section {
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+section hr {
+    height: 1px;
+    background-color: rgba(230, 230, 230, 0.6);
+    border: 1px none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #403b3b;
+
+}
+
+.bg {
+    background-color: rgb(239, 239, 239);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #000;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.standard-container {
+    max-width: 1080px;
+    margin: 0 auto;
+
+}
+
+button {
+    border: none;
+    background-color: #008000;
+    color: white;
+    font-size: 16px;
+    min-width: auto;
+    min-height: 40px;
+    padding: 0 40px 0 40px;
+    cursor: pointer;
+
+}
+
+#errorMessage {
+    display: none;
+    color: white;
+    background-color: rgb(241, 83, 83);
+    border: 2px solid rgb(212, 42, 42);
+    padding: 5px;
+    max-width: 340px;
+
+}
+
+.error {
+    display: flex;
+    justify-content: start;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+
+}
+
+button:hover {
+    background-color: #30a830;
+
+}
+
+.container-snippet--attention-box {
+    margin-bottom: 1.5789473684em;
+    margin-top: 1.5789473684em;
+    background: #fff;
+    clear: both;
+    color: #403b3b;
+    box-shadow: #a7c6ac 0 0 0 6px inset;
+    padding: 2.0em 1.60em 2.0em;
+    text-align: center;
+    transition: color .3s ease-in, background .3s ease-in;
+    border-radius: 16px;
+
+}
+
+/*Headlines Spacing*/
+
+.headline-top {
+    margin-top: 0px;
+}
+
+.headline-top-receipe {
+    margin-top: 20px;
+}
+
+.headline-section {
+    text-align: center;
+}
+
+/*Container Spacing*/
+
+.ctn-spc {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+}
+
+/*Header Styles*/
+
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 0px 0px 12px 0px rgba(85, 85, 85, 0.4);
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    height: 70px;
+
+}
+
+.header-logo img {
+    width: 210px;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    color: #403b3b;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: transparent 4px solid;
+
+
+}
+
+.menu a:hover {
+    color: #008000;
+    border-bottom: #008000 4px solid;
+    transition: all 75ms ease-in-out;
+}
+
+.menu>li {
+    margin: 0 1rem;
+
+}
+
+.menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: #000;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 8px;
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+}
+
+
+.header {
+    box-shadow: 0px 0px 12px 0px rgba(85, 85, 85, 0.4);
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+/*Main Styles*/
+
+/*First Section*/
+
+.first-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-sec-pic {
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.first-sec-pic img {
+    width: 310px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.first-sec-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+
+}
+
+/*Button styling */
+
+.buttons {
+    margin-top: 80px;
+    margin-bottom: 10px;
+
+}
+
+.buttons a {
+    background-color: #008000;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.buttons a:hover {
+    background-color: #30a830;
+}
+
+.buttons a:visited {
+    color: #fff;
+}
+
+/*Second Section*/
+
+.second-sec {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-flow: wrap;
+
+}
+
+.second-sec-gr1 {
+    display: flex;
+    text-align: center;
+}
+
+.second-sec-box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+}
+
+.second-sec-pic {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.second-sec a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 200px;
+
+}
+
+.second-sec a:hover {
+    color: #008000;
+}
+
+/*Third Section*/
+
+.third-sec {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+section#blog {
+    padding-bottom: 40px;
+
+}
+
+.third-sec-pic {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.third-sec p {
+    padding-right: 40px;
+}
+
+.third-sec h3 {
+    margin-top: 0px;
+}
+
+.third-sec a {
+    text-decoration: none;
+    color: #008000;
+
+}
+
+.third-sec a:visited {
+    text-decoration: none;
+    color: #008000;
+
+}
+
+.third-sec a:hover {
+    text-decoration: underline;
+
+}
+
+/*Footer Styles*/
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+
+
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+    color: #008000;
+}
+
+.footer-links a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-logo img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.footer-social-media {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-social-media a {
+    color: #fff;
+}
+
+.footer-social-media i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Recipe Styles*/
+
+section.receipe-ingredients {
+    padding-top: 0px;
+
+}
+
+.receipe-pic img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.receipe-icons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.receipe-icon-info {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(230, 230, 230, 0.6);
+    border-radius: 10px;
+    margin-right: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 14px;
+}
+
+.receipe-icon-info img {
+    margin-right: 7px;
+
+}
+
+.receipe-icon-info p {
+    margin: 7px;
+
+}
+
+.receipe-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.receipe-icons img {
+    width: 20px;
+
+}
+
+.input-button {
+    display: flex;
+
+}
+
+/*Ingredients*/
+
+.portion-container {
+    display: flex;
+    align-items: center;
+}
+
+.label-style {
+    display: flex;
+    align-items: center;
+
+}
+
+input {
+    padding: 10px;
+    margin: 0 0 0 12px;
+    border: 1px solid #efefef;
+    text-align: center;
+}
+
+input#servingInput {
+    text-align: center;
+    width: 60px;
+    min-height: 40px;
+    border: 1px solid;
+    border-color: rgba(230, 230, 230, 0.9);
+    margin-left: 33px;
+    padding: 0;
+
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    display: inline;
+
+}
+
+.ingredients table {
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.receipe-ingredients-calc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.ingredients table td {
+    padding: 10px 2px;
+    display: inline-table;
+    box-sizing: border-box;
+    min-height: 64px;
+    margin-bottom: 20px;
+}
+
+.ingredients table tr {
+    display: flex;
+}
+
+.ingredients .td-left {
+    font-weight: 600;
+    text-align: right;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.ingredients .td-right #unit {
+    font-weight: 600;
+
+}
+
+div span#unit {
+    width: 40px;
+
+}
+
+.ingredients .td-right {
+    width: 90%;
+    word-break: break-word;
+    display: flex;
+    align-items: center;
+
+}
+
+.ingredients tbody tr:nth-of-type(odd) td:first-child {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.ingredients tbody tr:nth-of-type(odd) td {
+    background: #f3f4f0;
+
+}
+
+.ingredients tbody tr:nth-of-type(odd) td.td-right {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*Preparation*/
+
+section.preparation {
+    padding-top: 0px;
+
+}
+
+.preparation li {
+    list-style-type: none
+}
+
+
+.receipe-author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.receipe-author img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    object-fit: cover;
+
+}
+
+.receipe-author p {
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+/*Responsive Anpassungen*/
+
+@media only screen and (max-width:992px) {
+
+    /*General*/
+
+    .ctn-spc {
+        margin-left: 60px;
+        margin-right: 60px;
+
+    }
+
+    button {
+
+        padding: 0 20px 0 20px;
+
+    }
+
+
+    /*Header*/
+
+    .menu-button-container {
+        display: flex;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 70px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu-toggle~.menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked~.menu li {
+        border-bottom: rgb(206, 203, 203) 1px solid;
+        height: 2.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .menu>li {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: white;
+        background-color: rgb(239, 239, 239);
+        overflow: hidden;
+    }
+
+
+    /*Main Styles*/
+
+    /*Buttons*/
+
+    .buttons {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    /*First Section*/
+
+    .first-sec {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-sec-pic img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .headline-top {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .first-sec-content {
+        display: flex;
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+    /*Second Section*/
+
+    .second-sec {
+        justify-content: space-around;
+
+
+    }
+
+    .second-sec-box {
+        width: 250px;
+        margin-top: 25px;
+
+    }
+
+    .second-sec-box a {
+        width: 250px;
+
+    }
+
+    .second-sec-pic {
+        height: 250px;
+        width: 250px;
+
+    }
+
+    /*Third Section*/
+
+    .third-sec {
+        flex-direction: column;
+
+    }
+
+    .third-sec-pic {
+        height: auto;
+        width: 100%;
+        order: 3;
+    }
+
+    .third-sec p {
+        text-align: center;
+        padding-bottom: 15px;
+        padding-right: 0;
+    }
+
+    .third-sec h3 {
+        text-align: center;
+        padding-right: 0;
+    }
+
+
+    /*Receipe Section*/
+
+    .headline-top-receipe {
+        text-align: center;
+    }
+
+    .receipe-icon {
+        flex-direction: column;
+        width: auto;
+
+    }
+
+    .receipe-icons {
+        justify-content: center;
+
+    }
+
+    .receipe-icon-info {
+        justify-content: unset;
+        margin: 5px;
+    }
+
+    .ingredients .td-right {
+        width: 70%;
+
+    }
+
+    .ingredients .td-left {
+        width: 30%;
+
+    }
+
+    /*Footer Styles*/
+
+    .footer {
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .footer-links {
+        flex-direction: row;
+
+    }
+
+    .footer-links a {
+        margin-right: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer-social-media {
+        margin-bottom: 30px;
+        order: 1;
+
+    }
+
+    .footer-logo {
+        align-items: center;
+
+    }
+
+    .footer-logo img {
+        margin-bottom: 15px;
+
+    }
+
+    .receipe-author {
+        flex-direction: column;
+    }
+
+    .receipe-ingredients-calc {
+
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:490px) {
+    .receipe-ingredients-calc {
+        flex-direction: column;
+    }
+
+    .ctn-spc {
+        margin-left: 40px;
+        margin-right: 40px;
+
+    }
+
+    .preparation h3,
+    h2,
+    p {
+        text-align: center;
+    }
+
+    .receipe-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .error {
+        justify-content: center;
+        line-height: 1.5em;
+
+
+    }
+
+
+
+}

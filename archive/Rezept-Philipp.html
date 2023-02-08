@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/Rezept-Philipp.css">
+    <script src="scripts/Rezept-Philipp.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <script src="https://kit.fontawesome.com/54e7771f1f.js" crossorigin="anonymous"></script>
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Kochwelt - Thousand Island Salad</title>
+</head>
+
+<body onload="includeHTML()">
+    <header class="header" w3-include-html="templates/header.html"></header>
+
+    <section class="section1">
+        <h1>Thousand Island Salad</h1>
+        <img class="meal-img" src="img/meal-img.jpg" alt="Bild des Gerichts">
+        <div class="info-container">
+            <div class="info bg">
+                <img class="info-icon" src="img/icons/clock-regular.svg" alt="Bild einer Uhr">
+                <span>30 Min.</span>
+            </div>
+            <div class="info bg">
+                <img class="info-icon" src="img/icons/brain-solid.svg" alt="Bild eines Gehirns">
+                <span>simpel</span>
+            </div>
+            <div class="info bg">
+                <img class="info-icon" src="img/icons/calendar-alt-regular.svg" alt="Bild eines Kalenders">
+                <span">17.01.2023</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <hr class="bg">
+        <div class="portion-container">
+            <span>Zutaten für</span>
+            <input id="portion" type="number" placeholder="4" min="1">
+            <button onclick="ingredientCalculator()">Portionen</button>
+        </div>
+
+        <table>
+            <tr>
+                <td class="ingredients bg"><span id="salad">1</span> Romana Salatherz(en)</td>
+            </tr>
+            <tr>
+                <td class="ingredients"><span id="shrimp">400</span>g Garnelen</td>
+            </tr>
+            <tr>
+                <td class="ingredients bg"><span id="garlic">1</span> Knoblauchzehe(n)</td>
+            </tr>
+            <tr>
+                <td class="ingredients"><span id="paprika">1</span> Paprika</td>
+            </tr>
+            <tr>
+                <td class="ingredients bg"><span id="onion">1</span> Frühlingszwiebel(n)</td>
+            </tr>
+            <tr>
+                <td class="ingredients"><span id="lemon">1</span> Zitrone(n)</td>
+            </tr>
+            <tr>
+                <td class="ingredients bg"><span id="sauce">8</span>ml Worcester Sauce</td>
+            </tr>
+            <tr>
+                <td class="ingredients"><span id="mayonnaise">60</span>ml Mayonnaise</td>
+            </tr>
+            <tr>
+                <td class="ingredients bg"><span id="ketchup">40</span>ml Ketchup</td>
+            </tr>
+            <tr>
+                <td class="ingredients"><span id="yogurt">200</span>g Joghurt</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section3">
+        <h2>Zubereitung</h2>
+        <div class="info-container">
+            <div class="info bg">
+                <img class="info-icon" src="img/icons/clock-regular.svg" alt="Bild einer Uhr">
+                <span>ca. 30 Minuten</span>
+            </div>
+            <div class="info bg">
+                <img class="info-icon" src="img/icons/clock-regular.svg" alt="Bild eines Gehirns">
+                <span>Gesamtzeit ca. 30 Minuten</span>
+            </div>
+        </div>
+        <p>
+            Knoblauch abziehen und in eine kleine Schüssel pressen. Garnelen hineingeben und alles mit Öl und
+            Paprikagewürz verrühren. Paprika halbieren, Kerne und Strunk entfernen und Paprikahälften in 1cm kleine
+            Würfel schneiden. Romanasalat in Streifen schneiden. Weißen Teil der Frühlingszwiebel fein würfeln, grünen
+            Teil in feine Ringe schneiden. Für das Dressing Zitrone in Spalten schneiden. In einer zweiten kleinen
+            Schüssel Joghurt, Mayonnaise, Ketchup und weiße Frühlingszwiebelwürfel verrühren. Mit Zitronensaft, einigen
+            Spritzern Worcester-Sauce, Salz und Pfeffer abschmecken. In einer großen Schüssel Salatblätter und
+            Paprikawürfel mit grünen Frühlingszwiebelringen und Dressing verrühren. Mit Salz und Pfeffer abschmecken.
+            Eine große Pfanne erhitzen und Garnelen darin bei hoher Hitze 3 - 4 Min. braten, bis sie innen nicht mehr
+            glasig sind. Salat auf dem Teller verteilen. Garnelen nach Belieben unter den Salat mischen oder darauf
+            anrichten. Mit dem restlichen Dip und Zitronenspalten genießen.<br>
+            Guten Appetit!
+        </p>
+        <h3>Rezept erstellt von</h3>
+        <div class="creator-container">
+            <img class="creator-img" src="img/Philipp.png" alt="Bild von Ersteller">
+            <span class="creator-name">Philipp</span>
+        </div>
+    </section>
+
+    <footer w3-include-html="templates/footer.html"></footer>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/contact.css">
+    <script src="scripts/contact.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <script src="https://kit.fontawesome.com/54e7771f1f.js" crossorigin="anonymous"></script>
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Kochwelt - Kontakt</title>
+</head>
+
+<body onload="includeHTML()">
+    <header class="header" w3-include-html="templates/header.html"></header>
+
+    <div class="main-container">
+        <div class="first-container">
+            <h1>Kontakt</h1>
+            <p>
+                Unsere Postanschrift lautet: <br>
+                Kochwelt GmbH <br>
+                Rosenheimer Str. 139 <br>
+                81671 München
+            </p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.2735841966046!2d11.59980031582118!3d48.12424716006804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf8378e729b3%3A0x597089178dfbfc81!2sRosenheimer%20Str.%20139%2C%2081671%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1674469786576!5m2!1sde!2sde"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form class="second-container" action="send_mail.php" method="post">
+            <input class="name-input" name="name" type="text" placeholder="Dein Name">
+            <input class="mail-input" name="email" type="email" placeholder="Deine E-Mail Adresse">
+            <input class="message-input" name="message" type="text" placeholder="Deine Nachricht">
+            <button type="submit">Absenden</button>
+        </form>
+    </div>
+
+    <footer w3-include-html="templates/footer.html"></footer>
+</body>
+
+</html>

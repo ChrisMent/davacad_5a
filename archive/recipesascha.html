@@ -1,0 +1,128 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/sascha.js"></script>
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/sascha.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <script src="https://kit.fontawesome.com/54e7771f1f.js" crossorigin="anonymous"></script>
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body onload="includeHTML()">
+    <header class="header" w3-include-html="templates/header.html"></header>
+    <main>
+        <section class="ctn-spc">
+            <h1>Indisches Hähnchen-Curry mit Reis</h1>
+            <img class="recipeSaschaImage" src="img/indisches_essen.jpg">
+            <div class="timeHead">
+                <div class="bg flexBoxImg">
+                    <img class="iconImg" src="img/icons/clock-regular.svg">
+                    ca. 60 Min
+                </div>
+                <div class="bg flexBoxImg">
+                    <img class="iconImg" src="img/icons/brain-solid.svg">
+                    ganz einfach
+                </div>
+                <div class="bg flexBoxImg">
+                    <img class="iconImg" src="img/icons/calendar-alt-regular.svg">
+                    17.01.2023
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="tableIng ctn-spc">
+            <div class="recipeCalc"> 
+                <span>Zutaten für: </span>             
+                <input type=number id=porty class="portInput" placeholder="4 Portionen" min="1">
+                <button onclick="changeRecipe()" class="portButton">Portionen</button>
+            </div>
+            <table>
+                <tr class="centerTable">
+                    <td><b>Für <span id="inputPortion">4</span> Portionen:</b></td>
+                </tr>
+                <tr class="centerTable">
+                    <td><span id="ing1">1000</span> g Hähnchen-Oberkeulen ohne Haut</td>
+                </tr>
+                <tr class="centerTable">
+                    <td><span id="ing2">4</span> EL Tikka Masala Tandoori-Paste</td>
+                </tr>
+                <tr class="centerTable">
+                    <td><span id="ing3">4</span> Zwiebeln</td>
+                </tr>
+                <tr class="centerTable">
+                    <td><span id="ing4">4</span> Tomaten</td>
+                </tr>
+                <tr class="centerTable">
+                    <td><span id="ing5">4</span> EL Öl</td>
+                </tr>
+                <tr class="centerTable">
+                    <td><span id="ing6">400</span> g Basmati-Reis</td>
+                </tr>
+                <tr class="centerTable">
+                    <td><span id="ing7">800</span> ml Hühnerbrühe</td>
+                </tr>
+                <tr class="centerTable">
+                    <td><span id="ing8">4</span> Stiel(e) Koriander</td>
+                </tr>
+
+            </table>
+        </section>
+
+        <div class="ctn-spc">
+            <h2 class="headlineCenter">Zubereitung</h2>
+            <div class="timeHead">
+                <div class="flexBoxImg bg">
+                    <img class="iconImg" src="img/icons/clock-regular.svg">
+                    ca. 60 Min
+                </div>
+                <div class="flexBoxImg bg">
+                    <img class="iconImg" src="img/icons/clock-regular.svg">
+                    Gesamtzeit ca. 60 Minuten
+                </div>
+            </div>
+            <div class="flexyExp centerRecipe">
+                Hähnchen trocken tupfen und in einer Schüssel mit Tandoori-Paste vermengen. Abgedeckt über Nacht kalt
+                stellen. Am nächsten Tag Zwiebeln schälen, fein würfeln. Tomaten waschen, trocken reiben, vierteln und
+                entkernen. Fruchtfleisch in ca. 1 cm große Würfel schneiden. Öl in einer Pfanne erhitzen, Hähnchen darin
+                unter Wenden portionsweise jeweils ca. 8 Minuten anbraten, herausnehmen.
+                <br>
+                <br>
+                Zwiebel in Bratfett ca. 3 Minuten andünsten. Reis zugeben und gut verrühren. Tomaten und Sultaninen
+                unterrühren. Reis in eine große ofenfeste Auflaufform (ca. 2,5 Liter Inhalt) füllen.
+                <br>
+                <br>
+                Hähnchen auf den Reis legen und mit Brühe übergießen. Auflaufform mit Folie abdecken und im vorgeheizten
+                Backofen (E-Herd: 225 °C/ Umluft: 200 °C/ Gas: s. Hersteller) ca. 45 Minuten garen. Aus dem Ofen nehmen
+                und abgedeckt ca. 10 Minuten ruhen lassen.
+                <br>
+                <br>
+                Koriander waschen, trocken schütteln und Blätter von den Stielen zupfen. Curry mit Koriander garnieren.
+                Dazu schmeckt Naturjoghurt.
+            </div>
+        </div>
+
+        <section class="ctn-spc">
+            <h3 class="headlineCenter h3size">Rezept erstellt von</h3>
+            <div class="flexEnd">
+                <img class="creatorImg" src="img/Creator/Raki.jpg">
+                <span class="fonty-size">Sascha Grill</span>
+            </div>
+        </section>
+
+        
+
+
+    </main>
+    <footer w3-include-html="templates/footer.html"></footer>
+
+
+</body>

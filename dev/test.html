@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <title>Calculator</title>
+    <style>
+      .Recipe-IngredientList {
+        width: 250px;
+        border: 1px solid #777;
+        border-radius: 3px;
+        padding: 5px;
+        margin-top: 5px;
+      }
+      .Recipe-Ingredient {
+        border-bottom: 1px solid black;
+        padding: 5px 0;
+      }
+      .Recipe-Ingredient:last-child {
+        border-bottom: none;
+      }
+      .Recipe-Ingredient span {
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Recipe</h3>
+    <div>
+      <label for="serving">Portions :</label>
+      <input type="number" id="servingInput" value="4" />
+      <button id="js-calcService">Portionen</button>
+
+
+    <div class="ingredients ctn-spc recipe-IngredientList">
+      <table>
+        <tbody>
+          <tr>
+            <td class="td-left js-recipeIngredient" data-baseValue="1">
+              <span id="quantity">1</span>
+            </td>
+            <td class="td-right">
+              <span id="unit">kg</span>
+              <span id="ingredient">Schweinebraten</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr />
+    </div>
+
+    <script>
+      // Recipe calculator
+      function computeServing(serving) {
+        document
+          .querySelector(".js-recipeIngredient")
+          .each(function (index, item) {
+            document
+              .querySelector(item)
+              .children("span")
+              .html(
+                document.querySelector(item)[0].dataset.basevalue * serving
+              );
+          });
+      }
+
+      document
+        .querySelector("#servingInput")
+        .addEventListener("change", function () {
+          computeServing(document.querySelector(this).value);
+        });
+      document
+        .querySelector(".js-calcService")
+        .addEventListener("click", function () {
+          computeServing(document.querySelector("#servingInput").value);
+        });
+
+      computeServing(4);
+    </script>
+  </body>
+</html>

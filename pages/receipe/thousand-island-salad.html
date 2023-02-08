@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <script
+      type="text/javascript"
+      src="/scripts/jquery/jquery-3.6.3.min.js"
+    ></script>
+    <script type="text/javascript" src="/scripts/script.js"></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/img/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link href="/fonts/fontawesome/css/all.css" rel="stylesheet" />
+
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Kochwelt - Thousand Island Salad</title>
+
+    <meta name="description" content="" />
+  </head>
+
+  <body onload="includeHTML()">
+    <header
+      class="header"
+      w3-include-html="../../templates/header.html"
+    ></header>
+
+    <main id="receipt-website">
+      <section class="receipe ctn-spc">
+        <div class="receipe-headline">
+          <h1 class="headline-top-receipe">Thousand Island Salad</h1>
+        </div>
+
+        <div class="receipe-pic">
+          <img
+            src="../../img/meal-img.jpg"
+            alt="Thousand Island Salad auf einem Teller"
+          />
+        </div>
+
+        <div class="receipe-icons">
+          <div class="receipe-icon">
+            <div class="receipe-icon-info">
+              <img src="../../img/icons/clock-regular.svg" alt="Dauer in Min" />
+              <p>30 Min.</p>
+            </div>
+            <div class="receipe-icon-info">
+              <img
+                src="../../img/icons/brain-solid.svg"
+                alt="Schwierigkeitgrad"
+              />
+              <p>Simpel</p>
+            </div>
+            <div class="receipe-icon-info">
+              <img
+                src="../../img/icons/calendar-alt-regular.svg"
+                alt="Datum hochgeladen"
+              />
+              <p>17.01.2023</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </section>
+
+      <section class="receipe-ingredients">
+        <div class="receipe-ingredients-calc ctn-spc">
+          <div class="input-button">
+            <label class="label-style" for="serving">Zutaten für :</label>
+            <input type="number" id="servingInput" min="1" value="4" />
+            <button id="js-calcService">Portionen</button>
+          </div>
+        </div>
+        <div class="error">
+          <p id="errorMessage"></p>
+        </div>
+
+        <div class="ingredients ctn-spc">
+          <table>
+            <tbody>
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="0.25">
+                  <span class="quantity">1</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">Stk.</span>
+                  <span class="ingredient">Romana Salatherz(en)</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="100">
+                  <span class="quantity">400</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">g</span>
+                  <span class="ingredient">Garnelen</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="0.25">
+                  <span class="quantity">1</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">Stk.</span>
+                  <span class="ingredient">Knoblauchzehe(n)</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="0.25">
+                  <span class="quantity">1</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">Stk.</span>
+                  <span class="ingredient">Paprika</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="0.25">
+                  <span class="quantity">1</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">Stk.</span>
+                  <span class="ingredient">Frühlingszwiebel(n)</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="0.25">
+                  <span class="quantity">1</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">Stk.</span>
+                  <span class="ingredient">Zitrone(n)</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="2">
+                  <span class="quantity">8</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">ml</span>
+                  <span class="ingredient">Worcester Sauce</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="15">
+                  <span class="quantity">60</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">ml</span>
+                  <span class="ingredient">Mayonnaise</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="10">
+                  <span class="quantity">40</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">ml</span>
+                  <span class="ingredient">Ketchup</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="td-left js-recipeIngredient" data-baseValue="50">
+                  <span class="quantity">200</span>
+                </td>
+                <td class="td-right">
+                  <span class="unit">g</span>
+                  <span class="ingredient">Joghurt</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <hr />
+        </div>
+
+        <script type="text/javascript" src="/scripts/script.js"></script>
+      </section>
+
+      <section class="preparation">
+        <div class="receipe preparation ctn-spc">
+          <h2>Zubereitung</h2>
+          <div class="receipe-icons">
+            <div class="receipe-icon-info">
+              <img
+                src="../../img/icons/clock-regular.svg"
+                alt="Dauer der Zubereitung"
+              />
+              <p>ca. 30 Min.</p>
+            </div>
+
+            <div class="receipe-icon-info">
+              <img src="../../img/icons/clock-regular.svg" alt="Gesamtdauer" />
+              <p>Gesamtzeit ca. 30 Min.</p>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              Knoblauch abziehen und in eine kleine Schüssel pressen. Garnelen
+              hineingeben und alles mit Öl und Paprikagewürz verrühren. Paprika
+              halbieren, Kerne und Strunk entfernen und Paprikahälften in 1cm
+              kleine Würfel schneiden. Romanasalat in Streifen schneiden. Weißen
+              Teil der Frühlingszwiebel fein würfeln, grünen Teil in feine Ringe
+              schneiden. Für das Dressing Zitrone in Spalten schneiden. In einer
+              zweiten kleinen Schüssel Joghurt, Mayonnaise, Ketchup und weiße
+              Frühlingszwiebelwürfel verrühren. Mit Zitronensaft, einigen
+              Spritzern Worcester-Sauce, Salz und Pfeffer abschmecken.
+            </p>
+
+            <p>
+              In einer großen Schüssel Salatblätter und Paprikawürfel mit grünen
+              Frühlingszwiebelringen und Dressing verrühren. Mit Salz und
+              Pfeffer abschmecken. Eine große Pfanne erhitzen und Garnelen darin
+              bei hoher Hitze 3 - 4 Min. braten, bis sie innen nicht mehr glasig
+              sind. Salat auf dem Teller verteilen. Garnelen nach Belieben unter
+              den Salat mischen oder darauf anrichten. Mit dem restlichen Dip
+              und Zitronenspalten genießen. Guten Appetit!
+            </p>
+          </div>
+          <br />
+          <div>
+            <h3>Rezept erstellt von</h3>
+          </div>
+          <div class="receipe-author">
+            <img src="/img/Philipp.png" alt="Philipp Schmalzl Profilbild" />
+
+            <p>Philipp Schmalzl</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer w3-include-html="../../templates/footer.html"></footer>
+  </body>
+</html>
